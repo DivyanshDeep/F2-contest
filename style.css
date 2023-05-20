@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: black;
+}
+.container{
+    position: relative;
+    border-radius: 10px solid red;
+    margin-right: 10px;
+}
+.text1{
+    color: white;
+    position: absolute;
+    width: 378px;
+    height: 29px;
+    top: 105px;
+    left: 58px;
+font-size: larger;
+word-spacing: 5px;
+}
+#profession{
+    width: 196px;
+    height: 58px;
+    border: 1px solid beige;
+    background-color: black;
+    position: absolute;
+    top: 199px;
+    left: 58px;
+    font-size: larger;
+    padding: 15px;
+}
+.details{
+    width: 536px;
+    height: 59px;
+    border: 1px solid beige;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    left: 58px;
+    border-radius: 12px;
+    padding: 0px 15px;
+}
+.fir{
+    position: absolute;
+    top: 306px;
+}
+.sec{
+    position: absolute;
+    top: 390px;
+}
+.thi{
+    position: absolute;
+    top: 474px;
+}
+.filter{
+    color: black;
+    background-color: rgb(244, 239, 239);
+    width: 226px;
+    height: 58px;
+    position: absolute;
+    top: 583px;
+    left: 58px;
+    align-items: center;
+    font-size:x-large;
+    font-weight: 100;
+}
+.text2{
+    color: white;
+    position: absolute;
+    top: 762px;
+    left: 58px;
+    height: 29px;
+    width: 175px;
+    word-spacing: 5px;
+}
+.form{
+    position: relative;
+    top: 836px;
+    left: 48px;
+    /* border: 2px solid red; */
+    display:inline-block;
+    white-space: nowrap;
+}
+.txt{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.two{
+    left: 647px;
+}
+.three{
+    left: 1220px;
+    /* right: 57px; */
+    /* margin-right: 10px; */
+}
+.common{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+input{
+    width: 531px;
+    height: 56px;
+    border-radius: 5px;
+    border: 1px solid beige;
+    background-color: black;
+    color: white;
+}
+.add{
+    color: black;
+    background-color: rgb(244, 239, 239);
+    width: 226px;
+    height: 58px;
+    position: absolute;
+    top: 983px;
+    left: 58px;
+    align-items: center;
+    font-size:x-large;
+    font-weight: 100;
+}
+.ok{
+    margin-right: 15px;
+}
+.container2{
+    margin-right: 10px;
+}

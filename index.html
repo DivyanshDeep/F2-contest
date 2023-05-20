@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Sign Up Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <span class="text1">Filter ui cards via their profession.</span>
+        <select name="profession" id="profession">
+            <option disabled selected>Profession</option>
+            <option value="developer">Developer</option>
+            <option value="admin">Admin</option>
+        </select>
+        <div class="details fir">
+            <span>1.</span>
+            <span>Name: John</span>
+            <span>Profession:Developer</span>
+            <span>Age:18</span>
+        </div>
+        <div class="details sec">
+            <span>2.</span>
+            <span>Name: Jack</span>
+            <span>Profession:Developer</span>
+            <span>Age:20</span>
+        </div>
+        <div class="details thi">
+            <span>3.</span>
+            <span>Name: Karen</span>
+            <span>Profession:Admin</span>
+            <span>Age:19</span>
+        </div>
+        <button class="filter">Filter</button>
+        <p class="text2">Add a new user</p>
+        <div class="container">
+            <div class="form">
+                <label class="txt" for="name"><span>Enter Name</span></label>
+                <input type="text" class="common" id="name">
+            </div>
+            <div class="form two">
+                <label class="txt" for="profess"><span>Enter Profession</span></label>
+                <input type="text" class="common" id="profess">
+            </div>
+            <div class="form three">
+                <label class="txt" for="age"><span>Enter Age</span></label>
+                <input type="text ok" class="common" id="age">
+            </div>
+            <button class="add">Add User</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
